@@ -342,3 +342,269 @@ git push origin main --force
 ls
 ls /home/ubuntu/
 exit
+git add /home/ubuntu/*
+git push -f origin main
+ls
+git push origin main
+git add .
+git push -u origin main
+git add forms.html index.html index.nginx-debian.html latest.tar.gz my.php myapp/ mynodeapp/ shell_script/ submit.php 
+git push -f origin main
+git push origin main --force
+git add forms.html index.html index.nginx-debian.html latest.tar.gz my.php myapp/ mynodeapp/ shell_script/ submit.php 
+git commit -m "Resolve merge conflicts"
+git push -f origin main
+git add /home/ubuntu/.
+git commit -m "first"
+git commit -m "Resolve merge conflicts"
+git push -f origin main
+show bramch
+show branch
+git branch
+git clean tree
+git add /home/ubuntu/.
+git commit -m "two"
+git commit -m "atwo"
+git commit -m "Add new data without removing old data"
+git status
+git add /home/ubuntu/*
+git commit -m "Add new data without removing old data"
+ls
+cd /var/www/html/
+ls
+ls wordpress/
+history
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx reload
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx reload
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx reload
+sudo service nginx status
+sudo service nginx start
+sudo service apache2 stop
+sudo service nginx start
+sudo service apache2 status
+sudo service nginx status
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx status
+sudo service nginx strt
+sudo service nginx start
+sudo -aux | grep nginx
+ps -aux | grep nginx
+pkill nginx
+ps -aux | grep nginx
+sudo service nginx start
+sudo service apache2 status
+sudo systemctl enable apache2
+sudo systemctl disable apache2
+sudo service apache2 status
+cd /etc/apache2/
+ls
+cd sites-enabled/
+ls
+cd ..
+cd conf-enabled/
+ls
+sudo nano apache2.conf
+cd ..
+sudo nano apache2.conf
+cd /usr/share/apache2/
+ls
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx start
+sudo nano /etc/nginx/sites-enabled/default
+cd shell_script/
+ls
+sudo nano lemp.sh 
+./lemp.sh 
+sudo nano php-fpm status
+sudo service php-fpm status
+sudo service php8.3-fpm status
+yes
+ls
+sudo service nginx status
+sudo systemctl status gunicorn
+sudo systemctl status gunicornsudo systemctl status gunicorn
+sudo systemctl status gunicorn
+sudo service gunicorn status
+sudo systemctl restart nginx
+sudo systemctl restart <upstream-server-service>
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl restart nginx
+sudo service nginx reload
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo find /usr/share/nginx/html/wordpress -type d -exec chmod 755 {} \;
+cd  /usr/share/nginx/html/
+ll
+show 
+ls
+cd
+ls
+cp latest.tar.gz forms.html submit.php my.php index.html /usr/share/nginx/html/
+sudo cp latest.tar.gz forms.html submit.php my.php index.html /usr/share/nginx/html/
+ls
+sudo tar -uvzf latest.tar.gz 
+sudo tar -xvzf latest.tar.gz 
+pwd
+ld
+ls
+rm wordpress/
+sudo rm wordpress/
+sudo rm -r wordpress/
+cd /usr/share/nginx/html/
+ls
+show
+sudo nano /etc/nginx/nginx.conf 
+sudo nano /etc/nginx/sites-enabled/default 
+ls
+sudo rm -r forms.html index.html latest.tar.gz my.php submit.php 
+cd /var/www/html/
+ls
+ls wordpress/
+ls
+cd wordpress/
+ls
+sudo nano /etc/nginx/nginx.conf 
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+ls
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo service nginx status
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx status
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx status
+sudo service nginx reload
+sudo service nginx status
+sudo nginx -t
+sudo service nginx status
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo service nginx status
+ls
+cd /etc/nginx/sites-enabled/
+ls
+rm defaultt
+sudo nano defaultt
+sudo rm default
+ls
+sudo service nginx start
+sudo service nginx reload
+sudo service nginx start
+sudo nano default 
+sudo service nginx start
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl start nginx.service
+sudo nginx -t
+cd /etc/nginx/sites-enabled/
+sudo nano /etc/nginx/sites-enabled/default 
+sudo apt-get remove nginx -y
+sudo apt-get install nginx -y
+sudo service apache2 status
+sudo service nginx status
+sudo service apache2 statussudo systemctl stop apache2
+sudo service nginx status
+sudo systemctl stop apache2
+sudo systemctl status apache2
+/etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2.conf
+sudo apt-get remove nginx -y
+sudo apt-get install nginx -y
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx start
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx start
+sudo apt remove nginx -y
+sudo apt install nginx -y
+sudo nano /etc/nginx/sites-enabled/default
+sudo service nginx start
+sudo lsof -i :80
+sudo apt remove --purge nginx nginx-common
+sudo apt autoremove
+sudo apt update
+sudo apt install nginx
+ls
+sudo service nginx start
+sudo service nginx status
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx reload
+sudo service nginx restart
+sudo service nginx status
+cd /var/www/html/
+ls
+curl http://localhost/forms.html
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx restart
+sudo nano /etc/nginx/sites-enabled/default 
+sudo service nginx restart
+sudo service apache2 status
+ls
+ps -aux | grep nginx
+pkill nginx
+sudo pkill nginx
+ps -aux | grep nginx
+sudo kill -9 2058
+ps -aux | grep nginx
+sudo service nginx status
+sudo service nginx start
+ps -aux | grep nginx
+sudo service nginx start
+sudo lsof -i :80
+cd /var/www/html/
+ls
+sudo mysql -u root -p
+sudo wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-english.tar.gz
+sudo tar -xvzf phpMyAdmin-5.2.1-english.tar.gz 
+sudo service nginx status
+ls
+rm -R wordpress/
+sudo rm -R wordpress/
+ls
+sudo wget https://wordpress.org/latest.zip
+ls
+sudo tar -xvzf latest.zip
+sudo wget https://wordpress.org/latest.tar.gz
+ls
+rm -r latest.zip 
+sudo rm -r latest.zip 
+sudo rm -r latest.tar.gz 
+sudo wget https://wordpress.org/wordpress-6.0.9.tar.gz
+ls
+sudo tar -xvzf wordpress-6.0.9.tar.gz 
+ls
+cd /var/www/html
+ls
+sudo chmod 777 -R wordpress
+ls
+cd /etc/nginx/sites-enabled/
+sudo nano default 
+sudo nano /etc/nginx/sites-enabled/default 
+cd /var/www/html/
+ls
+mv phpMyAdmin-5.2.1-english phpadmin
+sudo mv phpMyAdmin-5.2.1-english phpadmin
+cd /var/www/html/
+ls
+cd wordpress/
+ls
+ls wp-admin/
+sudo nano /etc/nginx/sites-available/your-site-config
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl start nginx 
+sudo systemctl reload nginx 
+sudo apt install -vsftpd -y
+sudo apt-get install -vsftpd -y
+sudo update -y
+sudo apt update -y
+sudo apt-get update -y
+sudo useradd salil
+sudo passwd salil
+sudo chown -R www-data:www-data /var/www/html/wordpress
+ls -l
