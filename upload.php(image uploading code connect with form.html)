@@ -1,14 +1,14 @@
 <?php
-require 'vendor/uploads.php';
+require 'vendor/autoload.php';
 use Aws\S3\S3Client;
 // Instantiate an Amazon S3 client.
 $s3Client = new S3Client([
 'version' => 'latest',
-'region'  => 'ap-southeast-2',
-'credentials' => [
-'key'    => ' AKIAR3KPMGMSXLXA5HXI ',     //Add your access key here
-'secret' => ' yH0f0bFXWZYubCWGI8uy+BObnbqZuam1h2H2bXov'  //Add your secret key here
-]
+'region'  => 'us-east-1',
+//'credentials' => [
+//'key'    => ' rterlkjk6jkl6lkel ',     //Add your access key here
+//'secret' => ' yH0f0bFXWkwj5l5jlZYuketjkeljkl6jkl'  //Add your secret key here
+//]
 ]);
 // Check if the form was submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -31,7 +31,7 @@ if(file_exists("uploads/" . $filename)){
 echo $filename . " is already exists.";
 } else{
 if(move_uploaded_file($_FILES["anyfile"]["tmp_name"], "uploads/" . $filename)){
-$bucket = 'eknaav';              //Add your bucket name here
+$bucket = 'salilwadkelkhyrl;t1';              //Add your bucket name here
 $file_Path = __DIR__ . '/uploads/'. $filename;
 $key = basename($file_Path);
 try {
@@ -43,14 +43,12 @@ $result = $s3Client->putObject([
 ]);
 echo "Image uploaded successfully. Image path is: ". $result->get('ObjectURL');
 $urls3= $result->get('ObjectURL') ;
-$cfurl= str_replace("https://vsb17.s3.amazonaws.com","https://d1lspta3i8hms0.cloudfront.net", $urls3);
-echo $cfurl;
+//$cfurl= str_replace("https://salilwadkeottke;.s3.amazonaws.com",/*"https://d1lspta3i8hms0.cloudfront.net"*/, $urls3);
+//echo $cfurl;
 $name=$_POST["name"];
-$servername = "
-database-1.cvdret5tnlxn.ap-southeast-2.rds.amazonaws.com
-";
+$servername = "database-1.eklrtjlekjtlcngiaycwm3lw.us-east-1.rds.amazonaws.com";
 $username = "root";
-$password = "Vaishnavi123";
+$password = "pass5696090341234";
 $dbname = "facebook";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -58,7 +56,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO posts(name,url,cfurl) VALUES('$name','$urls3' ,'$cfurl')";
+$sql = "INSERT INTO posts(name,url) VALUES('$name','$urls3')";
 if (mysqli_query($conn, $sql)) {
   echo "New record created successfully";
 } else {
